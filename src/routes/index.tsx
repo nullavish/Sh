@@ -589,12 +589,41 @@ function HeartScene() {
 // One beat per year, told like a story: a short line that moves it forward,
 // and the detail underneath for anyone who wants it.
 const timeline = [
-  { year: "chapter 01", title: "started with the syllabus.", line: "UPSC, SSC, banking: polity, history, economics and a lot of revision." },
-  { year: "chapter 02", title: "then came code.", line: "python, telegram bots, and tools for problems i kept running into." },
-  { year: "chapter 03", title: "found the markets.", line: "crypto, forex, candlestick scanners, and one eye on the Fed." },
-  { year: "chapter 04", title: "built Vocademy.", line: "a vocabulary platform for aspirants: active recall, word lists, multiplayer." },
-  { year: "chapter 05", title: "co-founded Aatmdeep.", line: "aatmdeep pvt ltd: product, design and the details that make it work." },
-  { year: "chapter 06", title: "now: AI, words, wisdom.", line: "AI tools for students, tech writing, and the gita made accessible." },
+  {
+    year: "chapter 01",
+    title: "curiosity came first.",
+    line: "technology, literature, philosophy, and the habit of exploring ideas beyond a single field."
+  },
+  {
+    year: "chapter 02",
+    title: "then came code.",
+    line: "Python, Telegram bots, APIs, web development, and automation tools built to solve real problems."
+  },
+  {
+    year: "chapter 03",
+    title: "found the markets.",
+    line: "crypto, forex, blockchain, candlestick scanners, and tracking Bitcoin, the Fed, and CPI."
+  },
+  {
+    year: "chapter 04",
+    title: "built Vocademy.",
+    line: "co-founded an English vocabulary platform for competitive exam aspirants, contributing to product design, testing, coding, web development, and security."
+  },
+  {
+    year: "chapter 05",
+    title: "co-founded Aatmdeep.",
+    line: "Aatmdeep Pvt. Ltd.: product development, design, technology, and turning ideas into working digital experiences."
+  },
+  {
+    year: "chapter 06",
+    title: "now: AI, words, wisdom.",
+    line: "AI tools for students, tech writing, literature, and making the teachings of the Bhagavad Gita more accessible."
+  },
+  {
+    year: "ongoing",
+    title: "the journey continues.",
+    line: "UPSC preparation, general studies, governance, history, economics, and building things along the way."
+  },
 ];
 const TIMELINE_FROM = 304;
 const TIMELINE_STEP = 18;
