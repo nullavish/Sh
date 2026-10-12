@@ -141,7 +141,7 @@ function WorkPage() {
           <Link to="/" className="hover:text-white">brain</Link>
           <span className="text-white underline underline-offset-8">work</span>
           <a href="https://vocademy.co.in" target="_blank" rel="noreferrer" className="hover:text-white">vocademy</a>
-          <a href="mailto:contact@shuklaji.in" className="hover:text-white">let's talk</a>
+          <a href="mailto:contact@shuklaji.org" className="hover:text-white">let's talk</a>
         </nav>
         <ClimbBackButton className="text-sm font-medium text-white/80 hover:text-white md:hidden">climb out ↑</ClimbBackButton>
       </header>
@@ -208,7 +208,7 @@ function WorkPage() {
 
       <footer className="relative mx-auto flex max-w-[1300px] flex-wrap items-center justify-between gap-6 border-t border-white/10 px-5 py-10 sm:px-8">
         <p className="font-serif text-3xl">
-          got an idea? <a href="mailto:contact@shuklaji.in" className="italic underline-offset-8 hover:underline">say hi ↗</a>
+          got an idea? <a href="mailto:contact@shuklaji.org" className="italic underline-offset-8 hover:underline">say hi ↗</a>
         </p>
         <ClimbBackButton className="rounded-full border border-white/60 px-6 py-3 text-white transition-colors hover:bg-white hover:text-[#0b0b0d]">climb back out ↑</ClimbBackButton>
       </footer>
